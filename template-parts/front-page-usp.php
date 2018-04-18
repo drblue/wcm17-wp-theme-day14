@@ -1,4 +1,4 @@
-<section class="usps">
+<section class="usps" id="usps">
 	<div class="container">
 		<h1 class="section-title">Roliga fakta</h1>
 

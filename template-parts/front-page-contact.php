@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact" id="contact">
 	<div class="container">
 		<h1 class="section-title">Contact me!</h1>
 
