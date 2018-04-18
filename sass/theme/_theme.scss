@@ -1,6 +1,7 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
 $hero-bg-color: #eee;
+$usp-bg-color: #eee;
 $portfolio-bg-color: #545454;
 $portfolio-text-color: #fefefe;
 
@@ -19,8 +20,16 @@ section.hero {
 	background-color: $hero-bg-color;
 }
 
-section.usp {
+section.usps {
+	.usp {
+		background-color: $usp-bg-color;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+	}
 }
 
 section.portfolio {
