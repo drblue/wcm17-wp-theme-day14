@@ -5,6 +5,16 @@ $usp-bg-color: #eee;
 $portfolio-bg-color: #545454;
 $portfolio-text-color: #fefefe;
 
+#page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#page-wrapper {
+	flex-grow: 1;
+}
+
 section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
