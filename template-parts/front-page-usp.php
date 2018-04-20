@@ -5,7 +5,7 @@
 		<?php
 			// hämta ut alla blogginlägg från kategorin USPs
 			$usps = new WP_Query([
-				'cat' => 7,					// hämta bara inlägg ifrån kategori med ID 7
+				'post_type' => 'mp_usps',	// hämta inlägg från post-typen mp_usps
 				'order_by' => 'post_title',	// sortera efter inläggets titel
 				'order' => 'ASC',			// sortera i bokstavsordning (A-Z)
 				'posts_per_page' => 3,		// hur många inlägg per sida vill vi visa
