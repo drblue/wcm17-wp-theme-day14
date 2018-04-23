@@ -5,8 +5,9 @@
 		<?php
 			// hämta ut alla blogginlägg från kategorin USPs
 			$portfoliolist = new WP_Query([
-				'cat' => 8,					// hämta bara inlägg ifrån kategori med ID 8
-				'order_by' => 'post_title',	// sortera efter inläggets titel
+				// 'cat' => 8,					// hämta bara inlägg ifrån kategori med ID 8
+				'post_type' => 'mp_portfolio',	// hämta ut inlägg av post-typen 'mp_portfolio'
+				'orderby' => 'post_title',	// sortera efter inläggets titel
 				'order' => 'ASC',			// sortera i bokstavsordning (A-Z)
 				'posts_per_page' => 4,		// hur många inlägg per sida vill vi visa
 			]);
