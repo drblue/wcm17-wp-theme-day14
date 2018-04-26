@@ -78,9 +78,9 @@ require get_template_directory() . '/inc/shortcodes.php';
 /**
  * Load Custom Post Types.
  */
-require get_template_directory() . '/inc/custom-post-types.php';
+//require get_template_directory() . '/inc/custom-post-types.php';
 
 /**
  * Load Custom Taxononmies.
  */
-require get_template_directory() . '/inc/custom-taxonomies.php';
+//require get_template_directory() . '/inc/custom-taxonomies.php';
