@@ -74,3 +74,13 @@ require get_template_directory() . '/inc/editor.php';
  * Load Shortcode functions.
  */
 require get_template_directory() . '/inc/shortcodes.php';
+
+/**
+ * Load Custom Post Types.
+ */
+require get_template_directory() . '/inc/custom-post-types.php';
+
+/**
+ * Load Custom Taxononmies.
+ */
+require get_template_directory() . '/inc/custom-taxonomies.php';
